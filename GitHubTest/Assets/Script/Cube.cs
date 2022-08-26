@@ -17,7 +17,7 @@ public class Cube : MonoBehaviour
     void Update()
     {
         
-        num += Time.deltaTime*2;
+        num += Time.deltaTime*2dgdd;
         transform.position = pos + new Vector3(0,Mathf.Sin(num),0);
     }
 }
